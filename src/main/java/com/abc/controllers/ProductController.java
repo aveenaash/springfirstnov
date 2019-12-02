@@ -22,6 +22,8 @@ public class ProductController {
 		
 		ModelAndView mv = new ModelAndView("product-page");
 		mv.addObject("pt", p);
+		
+		
 		mv.addObject("username", "Abinash");
 		return mv;
 	}
